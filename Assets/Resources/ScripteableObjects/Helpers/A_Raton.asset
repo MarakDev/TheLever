@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c849c9bb660d841838572058aac1af, type: 3}
+  m_Name: A_Raton
+  m_EditorClassIdentifier: 
+  _Name: Raton
+  _Description: Resta puntos (1pto/0.5seg) a no ser que le des queso. Cuando le das
+    queso genera 10 puntos cada 0.5 segundos.
+  _LevelUpgrade: Aumenta los puntos.
+  _Rarity: 1
+  _Type: 0
+  _Tribe: 0
+  _Artwork: {fileID: 21300000, guid: 5b16c6a176ae54f4dbe69306005dd67a, type: 3}
+  score_points: 10
+  score_cooldown: 0.5
+  score_levelUpgrade: 1

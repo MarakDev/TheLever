@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c849c9bb660d841838572058aac1af, type: 3}
+  m_Name: A_Leviatan
+  m_EditorClassIdentifier: 
+  _Name: Leviatan
+  _Description: Empieza en forma de huevo, para incubarlo empieza a consumir puntos
+    de la palanca 1pto / 0.1segundo, puedes clickar para acelerar el proceso. Necesarios
+    100.000. Otorga 100 puntos cada 1 segundos.
+  _LevelUpgrade: Aumenta los puntos.
+  _Rarity: 2
+  _Type: 0
+  _Tribe: 0
+  _Artwork: {fileID: 21300000, guid: 8bbf9c00daa77fb4d879342c01dca62e, type: 3}
+  score_points: 100
+  score_cooldown: 1
+  score_levelUpgrade: 1

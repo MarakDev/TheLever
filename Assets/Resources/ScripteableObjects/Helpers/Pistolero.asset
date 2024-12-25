@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638dbfc59ce7dc84cb64a687a1176fc6, type: 3}
+  m_Name: Pistolero
+  m_EditorClassIdentifier: 
+  _Name: Pistolero
+  _Description: 
+  _LevelUpgrade: 
+  _Rarity: 0
+  _Type: 0
+  _Tribe: 2
+  _Artwork: {fileID: 21300000, guid: a4b6127b773008543b290c146723e8fa, type: 3}
+  score_points: 3
+  score_cooldown: 0.5
+  score_levelUpgrade: 1
+  failProbability: 50
+  current_FailProbability: 50
