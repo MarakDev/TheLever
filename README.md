@@ -2,7 +2,7 @@
 
 Prototype of a clicker game where you pull a lever to earn points. As you progress, you can hire helpers to increase your earnings and gradually automate the process.
 
-## How was made
+## How it was made
 This game was made entirely by me in tree days, using only Unity and C#.
 
 ## What I implemented
